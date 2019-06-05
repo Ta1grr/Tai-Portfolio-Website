@@ -3291,3 +3291,22 @@ input, select, textarea {
 			}
 
 	}
+
+/* Custom */
+.extra-url {
+	font-size: 25px;
+	margin: 10px;
+	border-bottom: none;
+}
+
+.contacts { 
+	display: flex;
+	justify-content: center;
+	font-size: 1.5em;
+	margin-right: 30%;
+	padding-left: 0px;
+} 
+
+ul .icons {
+	list-style: none;
+}
