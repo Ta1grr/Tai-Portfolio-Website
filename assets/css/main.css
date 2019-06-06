@@ -2601,6 +2601,7 @@ input, select, textarea {
 		.button.primary {
 			background-color: #4acaa8;
 			color: #ffffff !important;
+			text-transform: uppercase;
 		}
 
 			input[type="submit"].primary:hover,
@@ -2851,6 +2852,45 @@ input, select, textarea {
 					color: inherit;
 				}
 
+/* Custom */
+.extra-url {
+	font-size: 1.3em;
+	margin: 10px;
+	border-bottom: none;
+}
+
+ .contacts { 
+	display: flex;
+	justify-content: center;
+	font-size: 1.5em;
+	padding-left: 0px;
+	text-transform: uppercase;
+}
+
+.special-button {
+	display: flex;
+	justify-content: center;
+	transition: background-color .2s ease-in-out,
+	color .2s ease-in-out;
+	border-radius: 4px;
+	height: 2.75em;
+	letter-spacing: .125em;
+	line-height: 2.75em;
+	padding: 0 2em;
+	text-align: center;
+	text-decoration: none;
+	/* text-indent: .125em; */
+	text-transform: uppercase;
+	/* margin-top: 1em; */
+}
+
+
+
+
+
+
+
+
 /* XLarge */
 
 	@media screen and (max-width: 1680px) {
@@ -2860,6 +2900,11 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 13pt;
 			}
+			
+		/* Contact */
+		.contacts {
+			font-size: 21pt;
+		}
 
 		/* Header */
 
@@ -2899,6 +2944,12 @@ input, select, textarea {
 				font-size: 11pt;
 			}
 
+		/* Contact */
+
+		.contacts {
+			font-size: 18pt;
+		}
+
 		/* Header */
 
 			#header {
@@ -2930,6 +2981,12 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
+
+		/* Contact */
+
+		.contacts {
+			font-size: 18pt;
+		}
 
 		/* Image */
 
@@ -3226,6 +3283,11 @@ input, select, textarea {
 				transform: translateX(-17em);
 			}
 
+		/* Contact */
+		.contacts {
+			font-size: 12pt;
+		}
+
 	}
 
 /* XSmall */
@@ -3290,23 +3352,13 @@ input, select, textarea {
 				padding: 0;
 			}
 
+			/* Contact */
+			.contacts {
+				font-size: 12pt;
+			}
+
+				/* .contacts.actions .icons:nth-child(0) {
+					display: none;
+				} */
 	}
 
-/* Custom */
-.extra-url {
-	font-size: 25px;
-	margin: 10px;
-	border-bottom: none;
-}
-
-.contacts { 
-	display: flex;
-	justify-content: center;
-	font-size: 1.5em;
-	margin-right: 30%;
-	padding-left: 0px;
-} 
-
-ul .icons {
-	list-style: none;
-}
